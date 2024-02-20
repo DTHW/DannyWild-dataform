@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="https://upset-seal-belt.cyclic.app/" target="_blank" method="post">
+        <fieldset>
+            <legend>Personal Data</legend>
+            <label for="firstName">First name:</label>
+            <input type="text">
+            <label for="lastName">Last name:</label>
+            <input type="text">
+            <label for="street">Street:</label>
+            <input type="text">
+            <label for="zipcode">Zipcode:</label>
+            <input type="text">
+            <label for="city">City:</label>
+            <input type="text">
+            <label for="phone">Phone:</label>
+            <input type="number">
+            <label for="email">Email:</label>
+            <input type="email">
+            <label for="comments">Comments:</label>
+            <textarea placeholder="Tell us more about important colors, etc." cols="48" rows="5"></textarea>
+            <legend>Products</legend>
+            <div class="radio">
+                <p>Web Desgin:</p>
+                <div>
+                    <input type="radio" name="webDesign">
+                    <label for="indivdual">indvidual</label>
+                    <input type="radio" name="webDesign">
+                    <label for="template">Template</label>
+                </div>
+            </div>
+            <div class="checkbox">
+                <p>Web Deveopment:</p>
+                <div>
+                    <input type="checkbox">
+                    <label for="htmlAndCss">HTML & CSS</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label for="javaScript">JavaScript</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label for="mongoDb">MongoDB</label>
+                </div>
+            </div>
+            <label for="projectStart">Project Start:</label>
+            <input type="date">
+            <label for="projectEnd">Project End:</label>
+            <input type="date">
+            <label for="category">Category:</label>
+            <select name="category">
+                <option value="">Choose an option</option>
+                <option value="personal">Personal</option>
+                <option value="lead">Leading-Position</option>
+            </select>
+        </fieldset>
+    </form>
+    <button>Order our services</button>
+</body>
+</html>
